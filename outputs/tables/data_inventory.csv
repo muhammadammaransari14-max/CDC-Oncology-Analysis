@@ -1,0 +1,9 @@
+file,rows_raw,cols_main_table,year_range,n_strata,strata_levels,total_rows,footnote_rows,n_suppressed_cells,n_unreliable_cells,has_joinpoint_block
+overall_.xlsx,32,7,1999-2024,1,Overall,NA,0,0,0,TRUE
+race_.xlsx,92,7,1999-2024,4,White; Black or African American; Hispanic or Latino; Asian,NA,2,5,2,TRUE
+sex_.xlsx,54,7,1999-2024,2,Female; Male,2,0,0,0,TRUE
+age_.xlsx,81,7,1999-2024,3,35-54 yrs; 55-74 yrs; 75+ yrs,3,0,0,0,TRUE
+census region_.xlsx,108,7,1999-2024,4,Census Region 1: Northeast; Census Region 2: Midwest; Census Region 3: South; Census Region 4: West,4,0,0,0,TRUE
+urbanisation_.xlsx,46,7,1999-2020,2,Metro; Non Metro,2,0,0,0,TRUE
+states_.xlsx,52,6,1999-2024 (two period columns),51,"51 levels, e.g. Alabama; Alaska; Arizona...",1,0,3,0,FALSE
+POD_.xlsx,10,5,1999-2024 (two period columns),9,"9 levels, e.g. Medical Facility - Inpatient; Medical Facility - Outpatient or ER; Medical Facility - Dead on Arrival...",1,0,2,0,FALSE

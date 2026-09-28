@@ -1,0 +1,12 @@
+order,section,what_to_write,read_from_objects
+1,Principal findings,"One paragraph: total burden, overall level/direction of AAR, breakpoint (if supported by Davies test / AIC), COVID-era shift, largest disparities, place-of-death shift, projection range.",overall_summary; jp_overall_aapc; segmented_summary; model_compare; its_table; rr_all; pod_shift; projection_summary
+2,Overall trend and inflection,Report CDC Joinpoint AAPC beside own log-linear APC; state whether they agree; interpret breakpoint with its CI; note autocorrelation caveat.,aapc_compare_primary; segmented_summary; hinge_sensitivity; ols (dw_p column)
+3,COVID-era effect,"Report ITS level shift/slope change (Newey-West CI) and counterfactual; explain that the naive pre/post t-test is confounded by the pre-existing trend; discuss diagnosis delays, competing pandemic mortality, and death-certificate coding.",its_table; covid_counterfactual; covid_tests
+4,Age and sex shifts,Identify the subgroup(s) with the steepest significant slope (not just cross-sectional rank); note absolute death counts.,"aapc_compare_primary (file %in% c('AGE','SEX')); descr_by_stratum"
+5,Racial disparities,"Rate ratios by race (White reference), first-5 vs last-5-year windows to show widening/narrowing; state that Hispanic ethnicity overlaps race categories; Asian rates limited by suppression/short series.",rr_race_table; race_footnotes; scope_checks$race_coverage
+6,Geographic variation,"Region rate ratios and AAPC (annual); states_ is a two-period comparison only - highest burden vs fastest annualized % change, small-state noise excluded.",rr_region_table; states_summary; states_top_burden; states_fastest_rising
+7,Urban vs rural,Metro vs non-metro rate ratio and separate AAPC/slope; note the series ends in 2020.,rr_urban_table; aapc_compare_primary (file == 'URBANIZATION')
+8,Place of death,Shift in shares between 1999-2020 and 2021-2024 (Holm-adjusted); implications for hospice/palliative capacity.,pod_shift; pod_chisq
+9,Projection,Present as an illustrative scenario with intervals; explain method divergence; cross-validated accuracy.,projection_tbl; forecast_accuracy; projection_caveat
+10,Limitations,"Use the auto-populated table below (small-number suppression, ecological design, urbanization gap, COVID-era effects, race exclusions, two-period state data, projection uncertainty).",limitations_table
+11,Conclusions and recommendations,Actionable recommendations tied to results (see findings_to_recs).,findings_to_recs

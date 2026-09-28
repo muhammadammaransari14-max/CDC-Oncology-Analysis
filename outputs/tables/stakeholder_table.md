@@ -1,0 +1,9 @@
+Table: Table M2. Stakeholders
+
+|stakeholder                                 |primary_interest                                        |how_findings_are_used                                                          |linked_questions |
+|:-------------------------------------------|:-------------------------------------------------------|:------------------------------------------------------------------------------|:----------------|
+|Hematology/oncology & pulmonology societies |Clinical guidance on VTE risk in hematologic malignancy |Target prophylaxis/screening protocols to highest-risk age/sex/race groups     |RQ4; RQ5; RQ9    |
+|CDC / NCHS and state health departments     |Surveillance and cancer/VTE mortality benchmarking      |Compare Joinpoint AAPC with independent regression; identify surveillance gaps |RQ2; RQ5; RQ6    |
+|Hospital & health-system quality officers   |Inpatient VTE-prevention programs, resource planning    |Regional/state burden; urban-rural disparity; COVID-era shock                  |RQ3; RQ6; RQ7    |
+|Hospice / palliative-care planners          |End-of-life care capacity planning                      |Place-of-death shift between 1999-2020 and 2021-2024                           |RQ8              |
+|Public health policymakers                  |Funding, equity, future planning                        |Disparity rate ratios; geographic hotspots; 2040 projection scenarios          |RQ5; RQ6; RQ9    |

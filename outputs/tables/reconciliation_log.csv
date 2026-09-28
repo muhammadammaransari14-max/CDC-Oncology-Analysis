@@ -1,0 +1,13 @@
+source,scope,reference,source_total,reference_total,diff,pct_diff,n_suppressed_cells,explained_by_suppression,status
+OVERALL: sum of yearly rows,1999-2024,OVERALL Total row,19106,19106,0,0,NA,NA,reconciles
+RACE: sum of group totals,1999-2024,OVERALL Total row,19851,19106,745,3.899298649638857,NA,NA,"excess (categories overlap / double-count, e.g. Hispanic ethnicity within RACE)"
+SEX: sum of group totals,1999-2024,OVERALL Total row,19106,19106,0,0,NA,NA,reconciles
+AGE: sum of group totals,1999-2024,OVERALL Total row,18877,19106,-229,-1.1985763634460378,NA,NA,"shortfall (small-cell suppression, or scope excludes a subgroup e.g. under-35 in AGE)"
+CENSUS_REGION: sum of group totals,1999-2024,OVERALL Total row,19106,19106,0,0,NA,NA,reconciles
+URBANIZATION: sum of group totals,1999-2020,OVERALL 1999-2020,14439,14439,0,0,NA,NA,reconciles
+STATES,1999-2024,OVERALL Total row,19084,19106,-22,-0.1151470742175233,3,TRUE,"shortfall (small-cell suppression, or scope excludes a subgroup e.g. under-35 in AGE)"
+STATES,1999-2020,OVERALL 1999-2020,14439,14439,0,0,0,TRUE,reconciles
+STATES,2021-2024,OVERALL 2021-2024,4645,4667,-22,-0.4713949003642597,3,TRUE,"shortfall (small-cell suppression, or scope excludes a subgroup e.g. under-35 in AGE)"
+POD,1999-2024,OVERALL Total row,19094,19106,-12,-0.06280749502773998,2,TRUE,"shortfall (small-cell suppression, or scope excludes a subgroup e.g. under-35 in AGE)"
+POD,1999-2020,OVERALL 1999-2020,14431,14439,-8,-0.05540549899577533,1,TRUE,"shortfall (small-cell suppression, or scope excludes a subgroup e.g. under-35 in AGE)"
+POD,2021-2024,OVERALL 2021-2024,4663,4667,-4,-0.08570816370259267,1,TRUE,"shortfall (small-cell suppression, or scope excludes a subgroup e.g. under-35 in AGE)"

@@ -1,0 +1,10 @@
+place_of_death,code,deaths_1999_2020,deaths_2021_2024,supp_1999_2020,supp_2021_2024,total_deaths_calc,total_is_lower_bound,structural_zero_period
+Medical Facility - Inpatient,1,8703,2471,FALSE,FALSE,11174,FALSE,FALSE
+Medical Facility - Outpatient or ER,2,1060,212,FALSE,FALSE,1272,FALSE,FALSE
+Medical Facility - Dead on Arrival,3,47,NA,FALSE,TRUE,47,TRUE,FALSE
+Medical Facility - Status unknown,10,NA,0,TRUE,FALSE,0,TRUE,TRUE
+Decedent's home,4,2410,1167,FALSE,FALSE,3577,FALSE,FALSE
+Hospice facility,5,579,369,FALSE,FALSE,948,FALSE,FALSE
+Nursing home/long term care,6,1256,326,FALSE,FALSE,1582,FALSE,FALSE
+Other,7,341,118,FALSE,FALSE,459,FALSE,FALSE
+Place of death unknown,9,35,0,FALSE,FALSE,35,FALSE,TRUE

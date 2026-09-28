@@ -1,0 +1,1 @@
+file,stratifier,group,year,deaths,rate,ci_lower,ci_upper,se,se_reported,se_source,se_suspect,se_log,se_ci,se_pois,se_ratio_ci,se_ratio_pois,se_z,se_robust_z,deaths_suppressed,rate_suppressed,rate_unreliable,identical_run_len,identical_run_flag

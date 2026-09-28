@@ -1,0 +1,3 @@
+model,AIC,BIC,davies_p,delta_AIC,delta_BIC,cdc_joinpoint,cdc_ci_lo,cdc_ci_hi,breakpoint_inside_cdc_ci
+Linear (log scale),-30.075991771273884,-26.301702157209437,NA,24.993308307728817,22.477115231685854,NA,NA,NA,NA
+"Segmented, 1 breakpoint",-55.0693000790027,-48.77881738889529,1.8524509289647134e-5,0,0,2018,2012,2019,TRUE
